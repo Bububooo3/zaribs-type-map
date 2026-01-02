@@ -38,7 +38,8 @@ fig2 = plotly.express.choropleth(
 )
 
 fig2.show()
-fig2.write_html("friends_type_heatmap_populous.html")
+fig2.write_html("my_friends_type_heatmap_populous.html")
 
-data.to_csv("zaribs_type_results.csv", index=False)
+data.to_csv("my_friends_type_results.csv", index=False)
+
 
